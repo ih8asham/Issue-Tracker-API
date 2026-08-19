@@ -35,13 +35,21 @@ Uvicorn
 **4) Project Structure:**
 
 Issue-Tracker-API/
+
 │
+
 ├── app/
-│   ├── ...
+
 │
+
+│
+
 ├── main.py
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 The exact folder structure may vary depending on the project version.
@@ -49,23 +57,18 @@ The exact folder structure may vary depending on the project version.
 **5) Installation:**
 
 **Clone the repository:**
-
 git clone https://github.com/ih8asham/issue-tracker-api.git
 
 **Go to the project directory:**
-
 cd issue-tracker-api
 
 **Create a virtual environment:**
-
 python -m venv venv
 
 **Activate the virtual environment on Windows:**
-
 venv\Scripts\activate
 
 **Install the required packages:**
-
 pip install -r requirements.txt
 
 **6) Run the API:**
@@ -101,9 +104,13 @@ The Issue Tracker API uses an issue-related route for managing issues.
 **Typical operations include:**
 
 GET     /api/v1/issues
+
 GET     /api/v1/issues/{issue_id}
+
 POST    /api/v1/issues
+
 PUT     /api/v1/issues/{issue_id}
+
 DELETE  /api/v1/issues/{issue_id}
 
 The exact available methods and paths depend on the current project implementation.
