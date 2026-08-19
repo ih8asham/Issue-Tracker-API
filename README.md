@@ -32,28 +32,6 @@ Pydantic
 
 Uvicorn
 
-**4) Project Structure:**
-
-Issue-Tracker-API/
-
-│
-
-├── app/
-
-│
-
-│
-
-├── main.py
-
-├── requirements.txt
-
-├── .gitignore
-
-└── README.md
-
-The exact folder structure may vary depending on the project version.
-
 **5) Installation:**
 
 **Clone the repository:**
@@ -83,14 +61,12 @@ http://127.0.0.1:8000
 
 **7) API Documentation**
 
-After starting the server, open:
-
+**After starting the server, open:**
 http://127.0.0.1:8000/docs
 
 Swagger UI allows you to view and test the available API endpoints directly from your browser.
 
-Alternative documentation:
-
+**Alternative documentation:**
 http://127.0.0.1:8000/redoc
 
 **8) API Endpoint**
@@ -98,7 +74,6 @@ http://127.0.0.1:8000/redoc
 The Issue Tracker API uses an issue-related route for managing issues.
 
 **Example:**
-
 /api/v1/issues
 
 **Typical operations include:**
