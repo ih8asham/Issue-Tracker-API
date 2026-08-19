@@ -52,11 +52,9 @@ pip install -r requirements.txt
 **6) Run the API:**
 
 **Start the FastAPI development server:**
-
 uvicorn main:app --reload
 
-The API will be available at:
-
+**The API will be available at:**
 http://127.0.0.1:8000
 
 **7) API Documentation**
